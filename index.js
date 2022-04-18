@@ -5,6 +5,16 @@ const generateMarkdown = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
 const questions = [
     {
+        type:'input',
+        name: 'github',
+        message:'What is your GitHub username?'
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email address?'
+    },
+    {
         type: 'input',
         name: 'title',
         message: 'What is the name of the project?'
@@ -33,20 +43,15 @@ const questions = [
         type: 'checkbox',
         name: 'license',
         message: 'Select licenses (check all that apply)',
-        choices: ['MIT', 'ISC', 'GNUPLv3']
+        choices: ['MIT', 'ISC', 'GNUPLv3', 'None']
     },
+    {
+        type: 'input',
+        name: 'test',
+        message: 'Go the extra mile and write tests for your application. Then provide examples on how to run them here.'
+    }
 ];
 
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) {
-
-//     fs.writeFile('./READMe.MD', generateMarkdown(data), err => {
-//         if (err) throw new Error(err) ;
-        
-//         console.log('Portfolio complete! Check out index.html to see the output!')
-        
-//     });
-// }
 
 // TODO: Create a function to initialize app
 function init() {
