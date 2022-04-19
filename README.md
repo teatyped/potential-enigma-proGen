@@ -20,4 +20,5 @@
 
 
 
+![example](./media/readme.gif)
 
