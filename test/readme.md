@@ -1,7 +1,9 @@
-# tea
+# hello world
+
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
 
   ## description
-  tea 
+  - speaking 
 
   ## Table of Contents
   - [Installation](#installation)
@@ -9,26 +11,26 @@
   - [Credits](#credits)
   - [License](#license)
   - [Tests](#tests)
-  - [Questions](#Questions)
+  - [Questions](#questions)
 
 
   ## Installation
   
-  tea
+  - tea
   
   ## Usage
-  tea
+  - tea
   
   ## Credits 
-  tea
+  - me my self and i 
 
   ## License 
-  MIT,ISC,GNUPLv3,None
+  -Apache
 
   ## Tests
-  tea
+  - tea
 
   ## Questions
-  If you have any questions please email me <noreply@gmail.com>
-  [My Github link](https://github.com/teatyped)
+  -If you have any questions please email me <noreplay@gmail.com>
+  -[My Github link](https://github.com/khai)
 
