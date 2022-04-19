@@ -48,6 +48,11 @@ const questions = [
     choices: ["Apache", "Boost", "BSD", "None"],
   },
   {
+    type:'input',
+    name: 'contribute',
+    message: 'What will your contribute guild lines be?'
+  },
+  {
     type: "input",
     name: "test",
     message:
@@ -58,12 +63,12 @@ const questions = [
 // TODO: Create a function to initialize app
 function init() {
   inquirer.prompt(questions).then((answers) =>
-    fs.writeFile("./test/readme.md", generateMarkdown(answers), (err) => {
+    fs.writeFile("./testCase/README.md", generateMarkdown(answers), (err) => {
       if (err) {
         console.log(err);
         return;
       } else {
-        console.log("Readme.MD file made");
+        console.log("README.MD file made!");
       }
     })
   );
