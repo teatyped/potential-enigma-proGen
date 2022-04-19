@@ -46,10 +46,10 @@ function generateMarkdown(data) {
   - ${data.credits}
 
   ## License 
-  -${data.license}
+  - ${data.license}
 
   ## Contribute
-  -${data.contribute}
+  - ${data.contribute}
 
   ## Tests
   - ${data.test}
