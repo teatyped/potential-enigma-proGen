@@ -18,7 +18,8 @@
     - FS
 
 
+video path 
+-> media/readme-gen-vid.mov
 
-
-![example](./media/readme.gif)
+![example](./media/readme-gen-vid.mov)
 
